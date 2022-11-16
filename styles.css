@@ -25,6 +25,10 @@ header, footer {
 header {
     height: 15vh;
     border-bottom: black solid 5px;
+    position: fixed;
+    overflow:hidden;
+    top: 0;
+    width: 100%;
 }
 
 footer {
@@ -34,6 +38,7 @@ footer {
 #main {
     display: flex;
     min-height: 75vh;
+    margin-top: 15vh;
 }
 #main > article {
     flex: 1;
