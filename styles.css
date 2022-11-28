@@ -1,79 +1,110 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin: 0;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 8px;
 }
 
-header, footer, article, nav, aside {
-    padding: 1em;
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
 }
 
-header, footer {
-    background-color: #211103;
-    color:whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+header,
+footer {
+  background-color: #211103;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 header {
-    height: 15vh;
-    border-bottom: black solid 5px;
-    position: fixed;
-    overflow:hidden;
-    top: 0;
-    width: 100%;
+  height: 15vh;
+  border-bottom: black solid 5px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
 }
 
 footer {
-    height: 10vh;
-    border-top: black solid 5px;
-}
-#main {
-    display: flex;
-    min-height: 75vh;
-    margin-top: 15vh;
-}
-#main > article {
-    flex: 1;
+  height: 10vh;
+  border-top: black solid 5px;
 }
 
-#main > nav, #main > aside {
-    flex: 0 0 20vh;
-    background-color: #3d1308;
-    color:whitesmoke;
+#mainHeading {
+  color: red;
 }
 
-#main > nav {
-    order: -1;
+.funParagraph {
+  color: green;
+}
+
+main {
+  display: flex;
+  min-height: 75vh;
+  margin-top: 15vh;
+}
+main > article {
+  flex: 1;
+}
+
+main > nav,
+main > aside {
+  flex: 0 0 20vh;
+  background-color: #3d1308;
+  color: whitesmoke;
+}
+
+main > nav {
+  order: -1;
 }
 
 article {
-    color: #666666;
+  color: #666666;
 }
 
 .float-right {
-    float:right;
-    padding: 1em;
+  float: right;
+  padding: 1em;
 }
 
 .float-left {
-    float:left;
-    padding: 1em;
+  float: left;
+  padding: 1em;
 }
 
 aside a {
-    background-color: whitesmoke;
-    text-decoration: none;
-    padding: .75em 1.5em;
-    margin-top: 2em;
-    display: block;
-    border: solid grey;
-    border-width: 2px 7px 7px 2px ;
+  background-color: whitesmoke;
+  text-decoration: none;
+  padding: 0.75em 1.5em;
+  margin-top: 2em;
+  display: block;
+  border: solid grey;
+  border-width: 2px 7px 7px 2px;
+}
+
+#madoline {
+  width: 288px;
+  height: 197px;
+}
+
+#napaCabbage {
+  width: 221px;
+  height: 295px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #3d1308;
 }
